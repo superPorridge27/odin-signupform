@@ -45,8 +45,59 @@
 }
 
 .main-content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: rgb(241, 241, 241);
+}
+
+.description {
+    padding-left: 10vh;
+    padding-bottom: 5vh;
+}
+
+.signup-inputs {
+    padding-left: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 0 10px 15px 0px #ccc, 0px 10px 5px 0px #fff;
+}
+
+.input-cols {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction:row;
+    gap: 5vh;
+}
+
+.left-input-cols {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.right-input-cols {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.input-label {
+    color: rgb(31, 30, 30);
+    margin-top: 5px;
+}
+
+.input-form {
+    border: lightgray thin solid;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form-action {
+    padding-left: 10vh;
 }
