@@ -125,4 +125,29 @@
 
 .login-link > a {
     color: #596D48;
+    text-decoration: none;
+}
+
+#email:user-invalid {
+    border-color: red;
+}
+
+#phonenumber:user-invalid {
+    border-color: red;
+}
+
+#email:focus {
+    border-color: blue;
+}
+
+#phonenumber:focus {
+    border-color: blue;
+}
+
+#password:user-invalid {
+    border-color: red;
+}
+
+#confpassword:user-invalid {
+    border-color: red;
 }
