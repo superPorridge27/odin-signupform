@@ -138,10 +138,40 @@
 
 #email:focus {
     border-color: blue;
+    box-shadow: 0 10px 15px 0px #ccc, 0px 10px 5px 0px #fff;
 }
 
 #phonenumber:focus {
     border-color: blue;
+    box-shadow: 0 10px 15px 0px #ccc, 0px 10px 5px 0px #fff;
+
+}
+
+#firstname:focus {
+    border-color: blue;
+    box-shadow: 0 10px 15px 0px #ccc, 0px 10px 5px 0px #fff;
+}
+
+#lastname:focus {
+    border-color: blue;
+    box-shadow: 0 10px 15px 0px #ccc, 0px 10px 5px 0px #fff;
+
+}
+
+#email:focus {
+    border-color: blue;
+    box-shadow: 0 10px 15px 0px #ccc, 0px 10px 5px 0px #fff;
+}
+
+#password:focus {
+    border-color: blue;
+    box-shadow: 0 10px 15px 0px #ccc, 0px 10px 5px 0px #fff;
+
+}
+
+#confpassword:focus {
+    border-color: blue;
+    box-shadow: 0 10px 15px 0px #ccc, 0px 10px 5px 0px #fff;
 }
 
 #password:user-invalid {
