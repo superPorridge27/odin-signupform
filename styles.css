@@ -1,6 +1,12 @@
+@font-face {
+        font-family: "NorseBold";
+        src: url('font/norse-bold-webfont.woff') format('woff');
+    }
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "NorseBold", sans-serif;
 }
 
 .container {
@@ -78,12 +84,14 @@
     display: flex;
     flex-direction: column;
     width: 30%;
+    gap: 1vh;
 }
 
 .right-input-cols {
     display: flex;
     flex-direction: column;
     width: 30%;
+    gap: 1vh;
 }
 
 .input-label {
@@ -100,4 +108,20 @@
 
 .form-action {
     padding-left: 10vh;
+    padding-top: 3vh;
+}
+
+.create-btn {
+    background-color: #596D48;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.login-link {
+    margin-top: 10px;
+}
+
+.login-link > a {
+    color: #596D48;
 }
