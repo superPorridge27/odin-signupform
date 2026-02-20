@@ -43,3 +43,10 @@
     margin-top: auto;
     color: white;
 }
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+}
